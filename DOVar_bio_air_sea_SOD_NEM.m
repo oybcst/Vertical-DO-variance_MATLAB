@@ -102,7 +102,7 @@ for ti = 1:tNum
 end
 
 %ocean_time = time1;
-matname = ['strain_bio_',nclist(nci).name(end-4:end-3),'.mat'];
+matname = ['Bio_terms_',nclist(nci).name(end-4:end-3),'.mat'];
 save(matname,'air_sea_exchange','air_sea_exchange_bar',...
     'SOD','SOD_bar','column_NEM','column_NEM_bar');
 
