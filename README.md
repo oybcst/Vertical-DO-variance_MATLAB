@@ -13,3 +13,14 @@ air_sea_exchange_SOD.m
 
 DOVar_bio_air_sea_SOD_NEM.m
 
+get_bay_wide_xxx.m    extract specfic terms for plotting. 
+
+
+
+Required external funtions to run the code
+
+sigma2z.m          convert ROMS sigma coordiate to z coordiate
+
+lanczosfilter.m    low/high pass filter
+
+simps.m            Numerical intergration using Simpson's rule. 
