@@ -23,4 +23,6 @@ sigma2z.m          Convert ROMS sigma coordiate to z coordiate
 
 lanczosfilter.m    Low/high pass filter
 
-simps.m            Numerical intergration using Simpson's rule. 
+simps.m            Numerical intergration using Simpson's rule
+
+derivative.m       Numerical dirivative, can be used to calculate VDOV tendecy term.
