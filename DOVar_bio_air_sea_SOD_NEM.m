@@ -75,25 +75,6 @@ surf = O2_airsea;
 btm = O2_btm;
 
 %%
-%for loni = 1:M
-%    for lati = 1:N
-%
-%        O2_airsea0(1:lt2) = O2_airsea(loni,lati,1:lt2);
-%
-%           surf0(1:tNum) = interp1(time2,O2_airsea0,time1);
-%           surf(loni,lati,1:tNum) = O2_airsea(loni,lati,1:lt2);
-%
-%           btm(loni,lati,1:tNum) = O2_btm(loni,lati,1:lt2);
-%
-%           for si=1:sNum
-%               O2_so0(1:lt3) = O2_so(loni,lati,si,1:lt3);
-%               prod0(1:tNum) = interp1(time3,O2_so0,time1);
-%               prod(loni,lati,si,1:tNum) = prod0(1:tNum);
-%           end
-%    end
-%end
-
-%%
 for ti = 1:tNum
     for loni = 1:M
         for lati = 1:N
