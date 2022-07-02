@@ -67,11 +67,6 @@ upsp = zeros(M,N,tNum)*NaN;
 vpsp = zeros(M,N,tNum)*NaN;
 dissip = zeros(M,N,tNum)*NaN;
 
-%O2_airsea_fname = dir('O2_airsea_*');
-%O2_btm_fname = dir('O2_btm*');
-
-%load(O2_airsea_fname(nci).name,'O2_airsea');
-%load(O2_btm_fname(nci).name,'O2_btm');
 
 %%
 for ti = 1:tNum
