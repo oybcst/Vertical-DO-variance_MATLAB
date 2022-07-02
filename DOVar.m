@@ -79,7 +79,7 @@ for ti = 1:tNum
                 z(1:sNum) = sigma2z(hc,s_rho,Cs_r,h(loni,lati),zeta(loni,lati,ti),sNum);
                 z_w(1:sNum+1) = sigma2z(hc,s_w,Cs_w,h(loni,lati),zeta(loni,lati,ti),sNum+1);
                 depth(loni,lati,ti)= abs(z(end)-z(1));
-
+                
                 DOMean(loni,lati,ti) = simps(z,DOz)/abs(z(end)-z(1));
                 DOPrime = DOz-DOMean(loni,lati,ti);
                 DOPrimeSq = DOPrime.^2;
